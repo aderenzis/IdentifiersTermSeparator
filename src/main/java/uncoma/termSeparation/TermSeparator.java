@@ -58,7 +58,7 @@ public class TermSeparator {
 
     }
 
-    public  ArrayList<String> separarTerminosAuxFine(String term)
+    public  ArrayList<String> separateTerms(String term)
     {
         if(dictionary==null || !dictionary.isOpen()){
             initializeDictionary();
